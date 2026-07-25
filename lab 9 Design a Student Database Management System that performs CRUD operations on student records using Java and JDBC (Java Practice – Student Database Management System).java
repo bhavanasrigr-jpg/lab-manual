@@ -1,3 +1,4 @@
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -29,6 +30,7 @@ public class DBConnection {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
+
 
 
 
@@ -106,6 +108,7 @@ java -cp "bin;mysql-connector-j-9.x.x.jar" StudentDBMSApp
 
 
 
+
 SCHEMA
 
 -- ============================================
@@ -130,6 +133,7 @@ CREATE TABLE IF NOT EXISTS students (
 INSERT INTO students (name, age, course, email, marks) VALUES
 ('Aditi Rao', 20, 'Computer Science', 'aditi.rao@example.com', 88.5),
 ('Rohan Mehta', 21, 'Electronics', 'rohan.mehta@example.com', 75.0);
+
 
 
 STUDENT
@@ -226,6 +230,7 @@ public class Student {
         );
     }
 }
+
 
 
 
@@ -389,6 +394,7 @@ public class StudentDAO {
         );
     }
 }
+
 
 
 StudentDBMS APP
@@ -618,3 +624,4 @@ public class StudentDBMSApp {
         }
     }
 }
+
