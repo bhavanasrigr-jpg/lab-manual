@@ -83,3 +83,4 @@ public class EmployeeAnalytics {
                 System.out.println("Highest Paid : " + e.getName() + " (" + e.getSalary() + ")")
         );
     }
+}
