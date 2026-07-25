@@ -35,3 +35,4 @@ public class CountCharacters {
         sc.close();
     }
 }
+
